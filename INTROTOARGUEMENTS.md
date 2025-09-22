@@ -1,0 +1,30 @@
+#INTROTOARGUEMENTS
+
+# Intro to Arguments
+
+While working on the **Intro to Arguments** challenge, I understood that many Linux commands don’t just run on their own — they often need extra input to decide what to do. These inputs are called *arguments*,
+and they are typed after the command name. Arguments act like instructions that tell the program exactly how to behave.  
+
+---
+
+## My Solve
+
+**Flag:**  
+pwn.college{k9b4DDvFDUo4bYfLTXz016XDntV.QX4YjM1wyN1EzNzEzW}
+
+
+
+I realized that `echo` is the actual command, and `hello` is the argument. Without the argument, the command wouldn’t know what to print, but with it, the program clearly displayed the word *hello*. This helped me
+see that arguments are essential for passing information to commands.  
+
+In the challenge, I was asked to run a program with a specific argument. The instructions told me exactly what to type, something like:  
+
+/challenge/run PWN_COLLEGE
+
+When I entered this, I understood that /challenge/run was the program itself, and PWN_COLLEGE was the argument I needed to provide. By supplying the correct argument, the program executed properly and returned the flag.
+
+From this, I realized that arguments are not just optional details but a necessary way of guiding commands. If I typed the command without the right arguments, it would either fail or give unexpected results. By carefully following the instructions and using the correct argument, I was able to solve the challenge successfully.
+
+##What I Learned
+
+Overall, the Intro to Arguments challenge taught me how important arguments are in Linux. I now understand that they are the key to making commands flexible and powerful. By learning to use them correctly, I feel more confident in working with the command line and ready to take on more advanced challenges.
